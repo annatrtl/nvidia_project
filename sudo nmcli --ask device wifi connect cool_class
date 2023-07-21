@@ -1,0 +1,45 @@
+IN-USE  SSID               MODE   CHAN  RATE        SIGNAL  BARS  SECURITY    
+[32m [0m       [32mcool_class[0m         [32mInfra[0m  [32m6[0m     [32m130 Mbit/s[0m  [32m100[0m     [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-870PRK3 2530[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m97[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-4M9YRK3 3478[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m97[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-FXCPRK3 4143[0m  [32mInfra[0m  [32m11[0m    [32m130 Mbit/s[0m  [32m97[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-5J0ZRK3 5092[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m95[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-GGKPRK3 1383[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m94[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-HFG5RK3 3178[0m  [32mInfra[0m  [32m6[0m     [32m130 Mbit/s[0m  [32m94[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mNvidiaNano[0m         [32mInfra[0m  [32m6[0m     [32m130 Mbit/s[0m  [32m94[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mfunny1[0m             [32mInfra[0m  [32m11[0m    [32m130 Mbit/s[0m  [32m92[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-6RYYRK3 7314[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m90[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mCAMP-G1HQRK3 2733[0m  [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m87[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mQuickQ 08B0[0m        [32mInfra[0m  [32m1[0m     [32m54 Mbit/s[0m   [32m87[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[32m [0m       [32mNvidia[0m             [32mInfra[0m  [32m1[0m     [32m130 Mbit/s[0m  [32m82[0m      [32m▂▄▆█[0m  [32mWPA2[0m        
+[33m [0m       [33mnvwrls2[0m            [33mInfra[0m  [33m11[0m    [33m260 Mbit/s[0m  [33m69[0m      [33m▂▄▆_[0m  [33mWPA2 802.1X[0m 
+[33m [0m       [33mNV_VISITOR[0m         [33mInfra[0m  [33m11[0m    [33m260 Mbit/s[0m  [33m69[0m      [33m▂▄▆_[0m  [33mWPA2[0m        
+[33m [0m       [33mNVMobile[0m           [33mInfra[0m  [33m11[0m    [33m260 Mbit/s[0m  [33m57[0m      [33m▂▄▆_[0m  [33mWPA2 802.1X[0m 
+[35m [0m       [35mjanice[0m             [35mInfra[0m  [35m6[0m     [35m130 Mbit/s[0m  [35m55[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m55[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mQuickQ 08A4[0m        [35mInfra[0m  [35m1[0m     [35m54 Mbit/s[0m   [35m54[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mQuickQ 08BA[0m        [35mInfra[0m  [35m1[0m     [35m54 Mbit/s[0m   [35m47[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m44[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m44[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mNVMobile[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m44[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m1[0m     [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m1[0m     [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mNVMobile[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m40[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m6[0m     [35m260 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mNVMobile[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mNVMobile[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mNVMobile[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m37[0m      [35m▂▄__[0m  [35mWPA2 802.1X[0m 
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m6[0m     [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m6[0m     [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m6[0m     [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m6[0m     [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvshield[0m           [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[35m [0m       [35mnvtestwireless[0m     [35mInfra[0m  [35m11[0m    [35m260 Mbit/s[0m  [35m34[0m      [35m▂▄__[0m  [35mWPA2[0m        
+[36m [0m       [36mNVMobile[0m           [36mInfra[0m  [36m6[0m     [36m260 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 
+[36m [0m       [36mNVMobile[0m           [36mInfra[0m  [36m11[0m    [36m260 Mbit/s[0m  [36m30[0m      [36m▂___[0m  [36mWPA2 802.1X[0m 

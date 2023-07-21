@@ -1,0 +1,12 @@
+2023-07-19 13:58:03.841 [info] Extension host with pid 7525 started
+2023-07-19 13:58:04.013 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-19 13:58:04.018 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-19 13:58:04.020 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-19 13:58:05.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-19 13:58:06.138 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-19 13:58:06.140 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-19 13:58:06.839 [info] Eager extensions activated
+2023-07-19 13:58:06.840 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-19 13:58:06.842 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-19 13:59:31.644 [info] Extension host terminating: received terminate message from renderer
+2023-07-19 13:59:31.743 [info] Extension host with pid 7525 exiting with code 0

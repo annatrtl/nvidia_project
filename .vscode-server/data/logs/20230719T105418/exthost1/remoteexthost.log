@@ -1,0 +1,14 @@
+2023-07-19 10:54:21.995 [info] Extension host with pid 7743 started
+2023-07-19 10:54:22.125 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-19 10:54:22.188 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-19 10:54:22.189 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-19 10:54:22.560 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-19 10:54:22.562 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-19 10:54:22.563 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-19 10:54:23.308 [info] Eager extensions activated
+2023-07-19 10:54:23.310 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-19 10:54:23.311 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-19 11:24:26.091 [error] Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-07-19 12:55:31.589 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-07-19 12:55:31.646 [info] Extension host with pid 7743 exiting with code 0
