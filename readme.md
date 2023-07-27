@@ -1,21 +1,23 @@
-Age Predictor Model
+Poisonous Plant Identifier
 
-This model is used to predict peoples ages based on their face. It is trained on an imagenet Resnet-18 model using transfer learning. The idea is that if the model overpredicts your age, you might have some sort of skin problems.
-
-![A computer analyzes a face.](https://imgur.com/HeyVfsW)
+This model identifies whether a plant is poisonous or not. It is trained on an imagenet Resnet-18 model using transfer learning. It can help people avoid illness and death by informing the user if the plant is dangerous.
 
 ## The Algorithm
-The algorithim is used by recording a video on a Logitech webcam - supported by Jetson nano. It uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. It uses a facenet to find a persons face in the image, then it crops the image to just hold the face. It then sends the face to the transfer learning model. The transfer model then predicts your age. It will try to guess your age to the best of its abilities. Then it will print out the age is it is confident. It is up to the user to interepret the information.
-Note: I ran this model on a realivly low epoch with information that was askew. The pretrained model is quite inacurrate.
+The algorithim uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. The transfer model classifies the plant as safe or not by using pattern recognition. It does so by being trained on a modified version of the Pl@ntNet dataset, making it able to recognize 65 different plants. Once it recognizes the plant it will output out: whether the plant is poisonous or not based on training, and the confidence of the answer based on validation. It is up to the user to interepret the information.
+Note: A flower is considered poisonous if it is unsafe to eat.
+
 ## Running this project
-
 1. Connect to your Jetson Nano via VSCODE. 
-2. Connect your Webcam (preferably logitech)
-3. Ensure that you have the proper things installed. The Renet18.onnx and all others like that - the ones that say resnet18.onnx and the final_project2.py. Also, esure that you have the labels.txt file.
-4. Since using teh preflashed SD card, there sould be a docker container. This is accesable by implementing this code. Change directories into jetson-inference/build/aarch64/bin. - use this code if your in the home.$ cd jetson-inference/build/aarch64/bin
-5. Then run this code -$ ./docker/run.sh --volume /home/(username)/final-projects:/final-projects        - the code moves the final-projects folder into the docker container so that the line from PIL import Image runs without an error.
-6a. The run the following code - $ python3 final_project2.py --network=facenet (webcam name here)
-6b. You should see a video popup of your face. Note how it is not a smooth stream of images. It should be a headshot of you and your face, and there should be some blakc space.
-7. The model is up and running, and so you should just put your face in clear view infront of the camera and watch as it tries to predict your age!
+2. Ensure that you have the proper things installed. The Renet18.onnx and all others like that - the ones that say resnet18.onnx. Also, esure that you have the labels.txt file.
+3. Since using the preflashed SD card, there should be a docker container. This is accesable by implementing this code. Change directories into jetson-inference
+4. Then run this code -$ ./docker/run.sh
+5. In jetson-inference/python/training/classification, run the following code to train the model - $ python3 train.py --model-dir=models/images data/images
+6. Run the ennox export script - $ python3 onnx_export.py --model-dir=models/images
+7. Exit the docker container and make sure you are in jetson-inference/python/training/classification
+8. Make sure the model is on the nano (You should see a file named resnet18.onnx) - $ ls models/images/
+9a. Set the NET variable - $ NET=models/images
+9b. Set the DATASET variable - $ DATASET=data/images
+10. Test it out on a poisonous image - $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/poisonous/0a0d16e9ef6ec8dfe67f98fea4c311d6dadb2932.jpg poisonous.jpg
+10. Open VsCode and view the output!
 
-[View a video explanation here](video link)
+
