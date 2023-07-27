@@ -20,4 +20,4 @@ Note: A flower is considered poisonous if it is unsafe to eat.
 10. Test it out on a poisonous image - $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/poisonous/0a0d16e9ef6ec8dfe67f98fea4c311d6dadb2932.jpg poisonous.jpg
 10. Open VsCode and view the output!
 
-
+https://youtu.be/BbmQsvx0TRI
