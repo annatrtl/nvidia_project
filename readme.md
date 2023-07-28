@@ -4,7 +4,7 @@ This model identifies whether a plant is poisonous or not. It is trained on an i
 
 ## The Algorithm
 The algorithim uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. The transfer model classifies the plant as safe or not by using pattern recognition. It does so by being trained on a modified version of the Pl@ntNet dataset, making it able to recognize 65 different plants. Once it recognizes the plant it will output out: whether the plant is poisonous or not based on training, and the confidence of the answer based on validation. It is up to the user to interepret the information.
-Note: A flower is considered poisonous if it is unsafe to eat.
+Note: A flower is considered poisonous if it is unsafe to eat. I wasn't able to include all of the original images used due to the 100 files limit, so the files included in this github are a fraction of the original.
 
 ## Running this project
 1. Connect to your Jetson Nano via VSCODE. 
